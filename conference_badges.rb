@@ -11,6 +11,7 @@ end
 
 
 def assign_rooms
+  rooms = 1..7.a 
   room_assignments = 
   
 end 
