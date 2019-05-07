@@ -6,10 +6,10 @@ end
 def batch_badge_creator(array)
   new_array = []
   array.each do |name|
-    nuarray.push("Hello, my name is #{name}.")
+    new_array.push("Hello, my name is #{name}.")
   end
   
-  return nuarray
+  return new_array
 end
 
 # batch_badge_creator(people)
