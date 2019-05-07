@@ -12,7 +12,6 @@ end
 
 def assign_rooms
   rooms = (1..7).to_a 
-  room_assignments = 
   
 end 
 
