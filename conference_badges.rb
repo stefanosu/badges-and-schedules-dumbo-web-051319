@@ -12,7 +12,6 @@ def batch_badge_creator(array)
   return new_array
 end
 
-# batch_badge_creator(people)
 
 
 def assign_rooms(array)
@@ -25,14 +24,13 @@ def assign_rooms(array)
   return new_array
 end
 
-# assign_rooms(people)
 
 def printer(array)
   batch_badge_creator(array).each do |id|
     puts id
   end 
   
-  assign_rooms(array).each do |id|
+  room_assignments(array).each do |id|
     puts id 
   end
 end 
