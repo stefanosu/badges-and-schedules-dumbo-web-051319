@@ -16,16 +16,15 @@ end
 
 
 def assign_rooms(array)
-  nuarray = []
+  room_array = []
   counter = 1
   array.each do |name|
-    nuarray.push("Hello, #{name}! You'll be assigned to room #{counter}!")
+    room_array.push("Hello, #{name}! You'll be assigned to room #{counter}!")
     counter += 1
   end
-  return nuarray
+  return room_array
 end
 
-# assign_rooms(people)
 
 def printer(array)
   batch_badge_creator(array).each do |id|
